@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>AI Alignment &amp; Safety, AE Studio Sales Playbook</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+ <div class="wrap">
+ <a href="index.html" class="brand">
+ <img src="assets/logo.svg" alt="AE.STUDIO" class="brand-logo" />
+ <span class="brand-divider" aria-hidden="true">·</span>
+ <span class="brand-name">Sales Playbook</span>
+ </a>
+ <nav class="primary">
+ <a href="index.html">Home</a>
+ <div class="nav-dropdown">
+ <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">Verticals <span class="nav-caret">+</span></button>
+ <div class="nav-dropdown-menu" role="menu">
+ <a href="airlines.html" role="menuitem">Airlines</a>
+ <a href="education.html" role="menuitem">Education</a>
+ <a href="private-equity.html" role="menuitem">Private Equity</a>
+ <a href="cross-vertical.html" role="menuitem">Cross-Vertical</a>
+ <a href="alignment.html" class="active" role="menuitem">Alignment</a>
+ </div>
+ </div>
+ <a href="skus.html">SKUs</a>
+ <a href="about.html">About AE</a>
+ <a href="extending-projects.html">Extending Projects</a>
+ <a href="resources.html">Resources</a>
+ </nav>
+ </div>
+</header>
+
+<main>
+<div class="wrap">
+
+ <section class="vhero">
+ <span class="eyebrow">Vertical · AI Alignment &amp; Safety</span>
+ <h1>Alignment is solvable. The problem is <em>almost no one's really tried.</em></h1>
+ <p class="lede">Existing safety approaches — RLHF, prompt engineering, output filtering — aren't enough. Fewer than one in ten alignment researchers believe current methods will solve core problems before AGI. AE runs frontier alignment research under the same roof as our production AI work, funded independently, with no outside investors telling us to stop. That's not a credential. It's a structural commitment others can't match.</p>
+ <div class="vstats">
+ <div class="vstat"><span class="num">4+</span><span class="lbl">Active neglected-approach research directions in production</span></div>
+ <div class="vstat"><span class="num">6+</span><span class="lbl">Collaborators including Anthropic, DARPA, Princeton, Redwood Research</span></div>
+ <div class="vstat"><span class="num">Since 2022</span><span class="lbl">Full alignment research mandate — self-funded, no outside investors</span></div>
+ <div class="vstat"><span class="num">150</span><span class="lbl">Senior professionals across research and applied work</span></div>
+ </div>
+ </section>
+
+ <section>
+ <div class="pov">
+ <span class="label">The AE point of view</span>
+ <h3>Everyone says they care about safety. Almost no one funds the research to prove it. <em>We do.</em></h3>
+ <p>The field has converged on a handful of approaches — RLHF, Constitutional AI, output filters — and called it a day. But these methods are patches, not solutions. Contemporary models can produce harmful outputs, hide dangerous backdoors, and deceive evaluators. The researchers closest to the problem know this. In a survey of active alignment researchers, fewer than one in ten believed current techniques would solve alignment before AGI.</p>
+ <p>AE's approach is different: pursue neglected directions, publish the work, and bring in collaborators who share the urgency — Anthropic, DARPA, Redwood Research, Princeton, the National Security Council. We don't do this for positioning. We do it because we think timelines are short and the mainstream research agenda has gaps that nobody else is filling.</p>
+ </div>
+ </section>
+
+ <section>
+ <h2>Research directions &amp; engagements</h2>
+ <p class="lede">Four active research programs, plus two engagement types for organizations that want to work with us directly — as research partners or as clients building AI systems that need to be safe from day one.</p>
+
+ <div class="offers">
+
+ <details class="offer" id="self-other-overlap">
+ <summary class="offer-summary">
+ <div class="summary-main">
+ <div class="pill-row">
+ <span class="pill bucket-impl">Research</span>
+ <span class="pill buyer">AI Labs · Safety Teams · Foundations</span>
+ </div>
+ <h3 class="offer-name">Self-Other Overlap</h3>
+ <p class="offer-pitch">Reducing LLM deception by training models to more accurately represent the perspectives of others. If a model can't distinguish its own state from another agent's, deception becomes structurally harder. Peer-reviewed, in active development.</p>
+ <p class="offer-cue"><span class="cue-label">Relevant when</span>"our model says one thing to evaluators and another in deployment"</p>
+ </div>
+ <span class="expand-toggle" aria-hidden="true">+</span>
+ </summary>
+ <div class="offer-body">
+ <div class="sales-cue">
+ <h4>When this comes up</h4>
+ <ul>
+ <li>A lab is seeing sycophancy or evaluation gaming they can't explain</li>
+ <li>A safety team suspects their model behaves differently under evaluation than in production</li>
+ <li>A foundation wants to fund neglected deception-reduction research</li>
+ </ul>
+ </div>
+ <h4 class="ship-header">What the research addresses</h4>
+ <ul class="sku-bullets">
+ <li>Structural deception: models that represent their own state differently depending on audience</li>
+ <li>Self-other overlap as a mechanism for making deception harder at the architecture level</li>
+ <li>Evaluation robustness: methods that hold up when the model knows it's being evaluated</li>
+ </ul>
+ </div>
+ </details>
+
+ <details class="offer" id="prosociality">
+ <summary class="offer-summary">
+ <div class="summary-main">
+ <div class="pill-row">
+ <span class="pill bucket-impl">Research</span>
+ <span class="pill buyer">AI Labs · Policy Bodies · Foundations</span>
+ </div>
+ <h3 class="offer-name">Prosociality in Language Models</h3>
+ <p class="offer-pitch">Reverse-engineering what drives cooperative, beneficial behavior in LLMs. Rather than patching outputs, we investigate the internal dynamics that produce genuinely prosocial responses — and how to make them more robust.</p>
+ <p class="offer-cue"><span class="cue-label">Relevant when</span>"we want models that are helpful for the right reasons, not because they're told to be"</p>
+ </div>
+ <span class="expand-toggle" aria-hidden="true">+</span>
+ </summary>
+ <div class="offer-body">
+ <div class="sales-cue">
+ <h4>When this comes up</h4>
+ <ul>
+ <li>A lab wants to understand why their model is helpful, not just confirm that it is</li>
+ <li>A policy body wants mechanistic evidence for why certain training approaches produce safer behavior</li>
+ <li>A foundation is funding interpretability or value-learning work</li>
+ </ul>
+ </div>
+ <h4 class="ship-header">What the research addresses</h4>
+ <ul class="sku-bullets">
+ <li>Internal representations that correlate with cooperative vs. misaligned behavior</li>
+ <li>Whether prosociality can be instilled mechanistically, or only approximated through training incentives</li>
+ <li>Robustness of prosocial behavior across distribution shift and adversarial prompting</li>
+ </ul>
+ </div>
+ </details>
+
+ <details class="offer" id="commissioned-research">
+ <summary class="offer-summary">
+ <div class="summary-main">
+ <div class="pill-row">
+ <span class="pill bucket-strategy">Engagement</span>
+ <span class="pill buyer">AI Labs · Foundations · Government</span>
+ <span class="pill price">Custom scope · funded research agenda</span>
+ </div>
+ <h3 class="offer-name">Commissioned Alignment Research</h3>
+ <p class="offer-pitch">Fund a specific neglected-approach research agenda. AE publishes peer-reviewed results; the partner gets early access, co-authorship where appropriate, and a team that treats the problem as its own. Collaborators have included Anthropic, DARPA, the National Security Council, and the White House OSTP.</p>
+ <p class="offer-cue"><span class="cue-label">Offer when</span>"we want to fund alignment research but don't have the team in-house to run it"</p>
+ </div>
+ <span class="expand-toggle" aria-hidden="true">+</span>
+ </summary>
+ <div class="offer-body">
+ <div class="sales-cue">
+ <h4>When to offer this</h4>
+ <ul>
+ <li>A foundation wants to fund alignment research but needs an execution partner, not just grantees</li>
+ <li>A government body (DoD, NSC, OSTP) wants a research agenda on a specific safety risk</li>
+ <li>An AI lab wants to externally validate or extend internal safety work with independent researchers</li>
+ </ul>
+ </div>
+ <h4 class="ship-header">What you ship</h4>
+ <ul class="sku-bullets">
+ <li>Scoped research agenda targeting a specific neglected-approach problem, agreed upfront</li>
+ <li>Peer-reviewed publications; partner gets early access and co-authorship where appropriate</li>
+ <li>Research briefings throughout — not a black box until the paper drops</li>
+ <li>Option to extend into follow-on programs or applied safety work</li>
+ </ul>
+ </div>
+ </details>
+
+ <details class="offer" id="safety-consulting">
+ <summary class="offer-summary">
+ <div class="summary-main">
+ <div class="pill-row">
+ <span class="pill bucket-strategy">Engagement</span>
+ <span class="pill buyer">Enterprises · AI Labs · Regulated Industries</span>
+ <span class="pill price">$25K strategy · $50–$150K implementation</span>
+ </div>
+ <h3 class="offer-name">Safety-Informed AI Strategy &amp; Implementation</h3>
+ <p class="offer-pitch">For organizations building or deploying frontier AI who need judgment about safety risks, not compliance theater. AE brings the same team that publishes alignment research to your architecture, training pipeline, and deployment stack — and ships production systems that are safe from day one, not bolted-on after.</p>
+ <p class="offer-cue"><span class="cue-label">Offer when</span>"we need AI that works and that we can actually stand behind"</p>
+ </div>
+ <span class="expand-toggle" aria-hidden="true">+</span>
+ </summary>
+ <div class="offer-body">
+ <div class="sales-cue">
+ <h4>When to offer this</h4>
+ <ul>
+ <li>An enterprise is deploying a frontier model in a high-stakes context (healthcare, finance, defense, education)</li>
+ <li>A regulated business needs AI governance that goes beyond compliance checkbox</li>
+ <li>An AI lab wants an independent red-team on their safety claims before a major release</li>
+ <li>A board or exec team is asking "how do we know this is safe?" and the answer currently is "we think so"</li>
+ </ul>
+ </div>
+ <h4 class="ship-header">What you ship</h4>
+ <ul class="sku-bullets">
+ <li>Safety audit of your current AI stack: where the real risks are, not just the checklist ones</li>
+ <li>Architecture and training recommendations grounded in current alignment research, not vendor defaults</li>
+ <li>Production deployment with safety designed in — guardrails, audit logs, human-in-the-loop where it matters</li>
+ <li>Red-team report: adversarial testing of your model's behavior under edge cases and misuse scenarios</li>
+ </ul>
+ </div>
+ </details>
+
+ </div>
+ </section>
+
+ <section>
+ <h2>Collaborators</h2>
+ <p class="lede">AE's alignment research isn't internal-only. These are the organizations we work alongside — sharing results, co-authoring, and coordinating on the problems that matter most.</p>
+ <div class="about-grid">
+ <div class="about-card">
+ <h3>Anthropic</h3>
+ <p>Joint research with Anthropic researchers on alignment approaches, with shared interest in neglected mechanistic directions.</p>
+ </div>
+ <div class="about-card">
+ <h3>DARPA</h3>
+ <p>U.S. government-funded research programs targeting AI safety and robustness at the frontier.</p>
+ </div>
+ <div class="about-card">
+ <h3>Redwood Research</h3>
+ <p>Collaboration on adversarial robustness and mechanistic interpretability, two of the most underfunded areas in safety.</p>
+ </div>
+ <div class="about-card">
+ <h3>Princeton University</h3>
+ <p>Academic partnership on foundational alignment questions, with peer-reviewed publication as a shared output.</p>
+ </div>
+ <div class="about-card">
+ <h3>PIBBSS &amp; Goodfire.ai</h3>
+ <p>Fellowship and research collaboration with the broader alignment community through PIBBSS; mechanistic work with Goodfire.</p>
+ </div>
+ <div class="about-card">
+ <h3>National Security Council · White House OSTP</h3>
+ <p>Engagement with U.S. government policy bodies on AI safety risk and research prioritization at the national level.</p>
+ </div>
+ </div>
+ </section>
+
+ <section>
+ <h2>Common objections (Alignment)</h2>
+ <p class="lede">What you'll hear — and how to respond.</p>
+ <div class="objections">
+ <div class="obj"><p class="q">We already have a safety team / red-team / responsible AI policy.</p><p class="a">Internal safety teams are valuable, but they're inside the same incentive structure as the product. We're independent. We publish the results whether they're flattering or not. That's a different kind of credibility than an internal review.</p></div>
+ <div class="obj"><p class="q">Is this just AI ethics consulting with a research veneer?</p><p class="a">No. Our researchers publish in peer-reviewed venues on mechanistic questions — self-other overlap, prosociality in LLMs, physics-based constraints. This isn't policy or principles work. It's technical alignment research that happens to be available to clients who want it applied to their systems.</p></div>
+ <div class="obj"><p class="q">Why does an AI services firm do alignment research?</p><p class="a">Because we're bootstrapped with no outside investors, so no one tells us to stop. And because the team that understands alignment at a mechanistic level builds better AI systems. The research and the applied work make each other sharper. That's not incidental — it's why we structured the company this way.</p></div>
+ <div class="obj"><p class="q">Is this ready for production use, or is it just research?</p><p class="a">Both. The research programs are academic and long-horizon. The safety consulting and strategy engagements are production-focused — they deliver working systems and concrete recommendations, not white papers.</p></div>
+ </div>
+ </section>
+
+ <section>
+ <h2>Next step</h2>
+ <p>The right entry point depends on whether the conversation is about research partnership or applied safety work. For research: a 30-minute call with our Chief Scientist. For applied safety or strategy: a 45-minute scoping call with our alignment-informed AI strategy lead.</p>
+ <p><a href="about.html">More about AE's alignment work →</a> · <a href="skus.html">Browse the full SKU catalog →</a></p>
+ </section>
+
+</div>
+</main>
+
+<footer class="site-footer">
+ <div class="wrap">
+ <div>AE Studio, Sales Playbook · AI Alignment &amp; Safety</div>
+ <div><a href="index.html">Back to playbook home</a></div>
+ </div>
+</footer>
+
+</body>
+</html>
